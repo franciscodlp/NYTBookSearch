@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D2E5B11AA16EA700F0428B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2E5B01AA16EA700F0428B /* AppDelegate.swift */; };
+		16D2E5B41AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16D2E5B21AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodeld */; };
+		16D2E5B61AA16EA700F0428B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2E5B51AA16EA700F0428B /* MasterViewController.swift */; };
+		16D2E5B81AA16EA700F0428B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2E5B71AA16EA700F0428B /* DetailViewController.swift */; };
+		16D2E5BB1AA16EA700F0428B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D2E5B91AA16EA700F0428B /* Main.storyboard */; };
+		16D2E5BD1AA16EA700F0428B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D2E5BC1AA16EA700F0428B /* Images.xcassets */; };
+		16D2E5C01AA16EA700F0428B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D2E5BE1AA16EA700F0428B /* LaunchScreen.xib */; };
+		16D2E5CC1AA16EA700F0428B /* NYT_Book_Search_v0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2E5CB1AA16EA700F0428B /* NYT_Book_Search_v0Tests.swift */; };
+		16D2E5D61AA16EC000F0428B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D2E5D51AA16EC000F0428B /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16D2E5C61AA16EA700F0428B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D2E5A31AA16EA700F0428B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D2E5AA1AA16EA700F0428B;
+			remoteInfo = "NYT Book Search v0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D2E5AB1AA16EA700F0428B /* NYT Book Search v0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYT Book Search v0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D2E5AF1AA16EA700F0428B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D2E5B01AA16EA700F0428B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16D2E5B31AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYT_Book_Search_v0.xcdatamodel; sourceTree = "<group>"; };
+		16D2E5B51AA16EA700F0428B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		16D2E5B71AA16EA700F0428B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		16D2E5BA1AA16EA700F0428B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D2E5BC1AA16EA700F0428B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16D2E5BF1AA16EA700F0428B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16D2E5C51AA16EA700F0428B /* NYT Book Search v0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYT Book Search v0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D2E5CA1AA16EA700F0428B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D2E5CB1AA16EA700F0428B /* NYT_Book_Search_v0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYT_Book_Search_v0Tests.swift; sourceTree = "<group>"; };
+		16D2E5D51AA16EC000F0428B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D2E5A81AA16EA700F0428B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D2E5D61AA16EC000F0428B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D2E5C21AA16EA700F0428B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D2E5A21AA16EA700F0428B = {
+			isa = PBXGroup;
+			children = (
+				16D2E5D51AA16EC000F0428B /* CoreData.framework */,
+				16D2E5AD1AA16EA700F0428B /* NYT Book Search v0 */,
+				16D2E5C81AA16EA700F0428B /* NYT Book Search v0Tests */,
+				16D2E5AC1AA16EA700F0428B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16D2E5AC1AA16EA700F0428B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D2E5AB1AA16EA700F0428B /* NYT Book Search v0.app */,
+				16D2E5C51AA16EA700F0428B /* NYT Book Search v0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D2E5AD1AA16EA700F0428B /* NYT Book Search v0 */ = {
+			isa = PBXGroup;
+			children = (
+				16D2E5B01AA16EA700F0428B /* AppDelegate.swift */,
+				16D2E5B51AA16EA700F0428B /* MasterViewController.swift */,
+				16D2E5B71AA16EA700F0428B /* DetailViewController.swift */,
+				16D2E5B91AA16EA700F0428B /* Main.storyboard */,
+				16D2E5BC1AA16EA700F0428B /* Images.xcassets */,
+				16D2E5BE1AA16EA700F0428B /* LaunchScreen.xib */,
+				16D2E5B21AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodeld */,
+				16D2E5AE1AA16EA700F0428B /* Supporting Files */,
+			);
+			path = "NYT Book Search v0";
+			sourceTree = "<group>";
+		};
+		16D2E5AE1AA16EA700F0428B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D2E5AF1AA16EA700F0428B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16D2E5C81AA16EA700F0428B /* NYT Book Search v0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16D2E5CB1AA16EA700F0428B /* NYT_Book_Search_v0Tests.swift */,
+				16D2E5C91AA16EA700F0428B /* Supporting Files */,
+			);
+			path = "NYT Book Search v0Tests";
+			sourceTree = "<group>";
+		};
+		16D2E5C91AA16EA700F0428B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D2E5CA1AA16EA700F0428B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D2E5AA1AA16EA700F0428B /* NYT Book Search v0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D2E5CF1AA16EA700F0428B /* Build configuration list for PBXNativeTarget "NYT Book Search v0" */;
+			buildPhases = (
+				16D2E5A71AA16EA700F0428B /* Sources */,
+				16D2E5A81AA16EA700F0428B /* Frameworks */,
+				16D2E5A91AA16EA700F0428B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYT Book Search v0";
+			productName = "NYT Book Search v0";
+			productReference = 16D2E5AB1AA16EA700F0428B /* NYT Book Search v0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D2E5C41AA16EA700F0428B /* NYT Book Search v0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D2E5D21AA16EA700F0428B /* Build configuration list for PBXNativeTarget "NYT Book Search v0Tests" */;
+			buildPhases = (
+				16D2E5C11AA16EA700F0428B /* Sources */,
+				16D2E5C21AA16EA700F0428B /* Frameworks */,
+				16D2E5C31AA16EA700F0428B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D2E5C71AA16EA700F0428B /* PBXTargetDependency */,
+			);
+			name = "NYT Book Search v0Tests";
+			productName = "NYT Book Search v0Tests";
+			productReference = 16D2E5C51AA16EA700F0428B /* NYT Book Search v0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D2E5A31AA16EA700F0428B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___QuixoteLabs___";
+				TargetAttributes = {
+					16D2E5AA1AA16EA700F0428B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					16D2E5C41AA16EA700F0428B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 16D2E5AA1AA16EA700F0428B;
+					};
+				};
+			};
+			buildConfigurationList = 16D2E5A61AA16EA700F0428B /* Build configuration list for PBXProject "NYT Book Search v0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D2E5A21AA16EA700F0428B;
+			productRefGroup = 16D2E5AC1AA16EA700F0428B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D2E5AA1AA16EA700F0428B /* NYT Book Search v0 */,
+				16D2E5C41AA16EA700F0428B /* NYT Book Search v0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D2E5A91AA16EA700F0428B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D2E5BB1AA16EA700F0428B /* Main.storyboard in Resources */,
+				16D2E5C01AA16EA700F0428B /* LaunchScreen.xib in Resources */,
+				16D2E5BD1AA16EA700F0428B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D2E5C31AA16EA700F0428B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D2E5A71AA16EA700F0428B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D2E5B41AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodeld in Sources */,
+				16D2E5B11AA16EA700F0428B /* AppDelegate.swift in Sources */,
+				16D2E5B61AA16EA700F0428B /* MasterViewController.swift in Sources */,
+				16D2E5B81AA16EA700F0428B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D2E5C11AA16EA700F0428B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D2E5CC1AA16EA700F0428B /* NYT_Book_Search_v0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D2E5C71AA16EA700F0428B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D2E5AA1AA16EA700F0428B /* NYT Book Search v0 */;
+			targetProxy = 16D2E5C61AA16EA700F0428B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16D2E5B91AA16EA700F0428B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D2E5BA1AA16EA700F0428B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16D2E5BE1AA16EA700F0428B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D2E5BF1AA16EA700F0428B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D2E5CD1AA16EA700F0428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16D2E5CE1AA16EA700F0428B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D2E5D01AA16EA700F0428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NYT Book Search v0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16D2E5D11AA16EA700F0428B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NYT Book Search v0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16D2E5D31AA16EA700F0428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NYT Book Search v0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYT Book Search v0.app/NYT Book Search v0";
+			};
+			name = Debug;
+		};
+		16D2E5D41AA16EA700F0428B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NYT Book Search v0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYT Book Search v0.app/NYT Book Search v0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D2E5A61AA16EA700F0428B /* Build configuration list for PBXProject "NYT Book Search v0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D2E5CD1AA16EA700F0428B /* Debug */,
+				16D2E5CE1AA16EA700F0428B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D2E5CF1AA16EA700F0428B /* Build configuration list for PBXNativeTarget "NYT Book Search v0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D2E5D01AA16EA700F0428B /* Debug */,
+				16D2E5D11AA16EA700F0428B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16D2E5D21AA16EA700F0428B /* Build configuration list for PBXNativeTarget "NYT Book Search v0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D2E5D31AA16EA700F0428B /* Debug */,
+				16D2E5D41AA16EA700F0428B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16D2E5B21AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16D2E5B31AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodel */,
+			);
+			currentVersion = 16D2E5B31AA16EA700F0428B /* NYT_Book_Search_v0.xcdatamodel */;
+			path = NYT_Book_Search_v0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16D2E5A31AA16EA700F0428B /* Project object */;
+}
